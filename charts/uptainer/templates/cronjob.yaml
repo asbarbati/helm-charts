@@ -21,6 +21,8 @@ spec:
             image: "{{ .Values.image.repository }}:v{{ .Values.image.tag | default .Chart.AppVersion }}"
             imagePullPolicy: {{ .Values.image.pullPolicy }}
             env:
+              - name: UPTAINER_DEBUG
+                value: {{ .Value.debugmode }}
               - name: GITHUB_API_TOKEN
                 valueFrom:
                   secretKeyRef:

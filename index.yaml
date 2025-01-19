@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   uptainer:
   - apiVersion: v2
+    appVersion: 0.1.9
+    created: "2025-01-19T22:32:44.807913114Z"
+    description: Uptainer is a Python CLI that automates tool updates, ensuring consistency
+      and reliability in your GitOps-driven infrastructure.
+    digest: 8e8124c0fac6bd9534277d9b159e500876ca47bab5eae7b8d31d279c6e9dbf73
+    name: uptainer
+    type: application
+    urls:
+    - https://github.com/asbarbati/helm-charts/releases/download/uptainer-0.1.1/uptainer-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 0.1.7
     created: "2025-01-18T22:14:02.00709331Z"
     description: Uptainer is a Python CLI that automates tool updates, ensuring consistency
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://github.com/asbarbati/helm-charts/releases/download/uptainer-0.1.0/uptainer-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-18T22:14:02.007104571Z"
+generated: "2025-01-19T22:32:44.807924576Z"

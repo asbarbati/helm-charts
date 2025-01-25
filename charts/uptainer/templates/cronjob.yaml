@@ -22,7 +22,7 @@ spec:
             imagePullPolicy: {{ .Values.image.pullPolicy }}
             env:
               - name: UPTAINER_DEBUG
-                value: {{ .Value.debugmode }}
+                value: "{{ .Value.debugmode }}"
               - name: GITHUB_API_TOKEN
                 valueFrom:
                   secretKeyRef:
